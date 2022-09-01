@@ -83,8 +83,8 @@
         nixpkgs.overlays = [
           nixpkgs-firefox-darwin.overlay
         ];
-        home.homeDirectory = "/Users/sherubthakur";
-        home.username = "sherubthakur";
+        home.homeDirectory = "/Users/micke";
+        home.username = "micke";
         imports = [
           ./modules/nu/default-mac.nix
           ./modules/tmux
@@ -96,8 +96,8 @@
       };
 
       home-linux = {
-        home.homeDirectory = "/home/sherub";
-        home.username = "sherub";
+        home.homeDirectory = "/home/micke";
+        home.username = "micke";
         imports = [
           ./modules/discord
           ./modules/media.nix
